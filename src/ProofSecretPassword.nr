@@ -48,9 +48,8 @@ fn read_char() -> u8 {
 // Declare a local variable for the input character
 let mut input: u8 = 0;
 
-Copy code
 // Read in the input character from the user
-input = read_input();
+let input = read_input();
 
 // Return the input character
 input
@@ -61,9 +60,8 @@ fn read_input() -> u8 {
 // Declare a local variable for the input
 let mut input: u8 = 0;
 
-Copy code
 // Read in the input from the user
-input = get_input();
+let input = get_input();
 
 // Return the input
 input
